@@ -9,7 +9,7 @@ public class Square extends Rectangle {
 	@Override
 	public void setSize(double sideA, double sideB) {
 		this.sideA = sideA;
-		this.sideB = sideA;
+		this.sideB = sideB;
 	}
 
 }
