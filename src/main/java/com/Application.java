@@ -1,4 +1,4 @@
-package com.epam;
+package com;
 
 import java.util.Arrays;
 import java.util.List;
@@ -25,6 +25,7 @@ public class Application {
 			if (!first) {
 				rectangle.setSize(lastSideB, sideB);
 			}
+			sideB = rectangle.getSideB();
 			lastSideB = sideB;
 			first = false;
 		}
